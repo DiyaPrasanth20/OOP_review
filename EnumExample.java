@@ -22,5 +22,12 @@ public class EnumExample{
         }
 
 
+        Day[] days = Day.values(); 
+        for (Day day : days) {
+            System.out.println(day + "is at position" + day.ordinal());
+            System.out.println(day.name().toLowerCase());
+        }
+
+
     }
 }
